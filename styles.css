@@ -1,0 +1,103 @@
+body{
+  background-color:  #cce6ff;
+}
+h1 {
+    position: absolute;
+    margin-top: 30vh;
+    width: 100%;
+    text-align: center;
+    font-size: 333%;
+    font-family: sans-serif;
+    color: #ff0000;
+    opacity: 0.5;
+  }
+  
+  canvas {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+  }
+  .canvas {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+  }
+
+.suprise {
+  position: absolute;
+  margin-top: 40vh;
+  vertical-align: middle;
+}
+  
+.container-button {
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  left:0;
+  position: absolute;
+}
+
+.divContainer{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-top: 40vh;
+  flex-direction: column;
+  width: 100%;
+  right: 0;
+  left: 0;
+  justify-content: space-between
+}
+
+.play {
+  border: 0;
+  background: transparent;
+  box-sizing: border-box;
+  width: 0;
+  height: 20px;
+
+  border-color: transparent transparent transparent #e60000;
+  transition: 100ms all ease;
+  cursor: pointer;
+
+
+  border-style: solid;
+  border-width: 10px 0 15px 15px;
+}
+.play:hover{
+  border-color: transparent transparent transparent #ff4d4d;
+}
+
+.pause{
+  display: block;
+  box-sizing: border-box;
+  width: 0;
+  background: transparent;
+  height: 20px;
+  border-color: transparent transparent transparent #262626;
+  transition: 100ms all ease;
+  cursor: pointer;
+  border-style: double;
+  border-width: 0px 0 0px 10px;
+}
+
+.pause:hover{
+  border-color: transparent transparent transparent #666666;
+}
+
+.bigDiv{
+  display: flex;
+    flex-direction: row;
+    margin: 2%;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+  width: 50px;
+  margin-top: 40vh;
+  margin-left: 50%;
+}

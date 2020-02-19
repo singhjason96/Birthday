@@ -56,7 +56,7 @@ h1 {
   background: transparent;
   box-sizing: border-box;
   width: 0;
-  height: 20px;
+  height: 25px;
 
   border-color: transparent transparent transparent #e60000;
   transition: 100ms all ease;
@@ -64,7 +64,7 @@ h1 {
 
 
   border-style: solid;
-  border-width: 10px 0 15px 15px;
+  border-width: 15px 0 20px 20px;
 }
 .play:hover{
   border-color: transparent transparent transparent #ff4d4d;
@@ -75,12 +75,12 @@ h1 {
   box-sizing: border-box;
   width: 0;
   background: transparent;
-  height: 20px;
+  height: 25px;
   border-color: transparent transparent transparent #262626;
   transition: 100ms all ease;
   cursor: pointer;
   border-style: double;
-  border-width: 0px 0 0px 10px;
+  border-width: 0px 0 0px 15px;
 }
 
 .pause:hover{
@@ -103,10 +103,14 @@ img{
 }
 
 h3{
-  font-size: 30px;
+  font-size: 35px;
 }
 
 @media (max-width: 1000px){
   img{
       margin-top: 35vh;
   }
+  .divContainer{
+    margin-top: 35vh;
+  }
+}

@@ -105,3 +105,8 @@ img{
 h3{
   font-size: 30px;
 }
+
+@media (max-width: 1000px){
+  img{
+      margin-top: 35vh;
+  }

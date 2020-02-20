@@ -106,9 +106,20 @@ h3{
   font-size: 35px;
 }
 
+.clickhere{
+  margin-left: 51%;
+  margin-top: 46vh;
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+
 @media (max-width: 1000px){
   img{
       margin-top: 35vh;
+  }
+  .clickhere{
+    margin-top: 35vh;
   }
   .divContainer{
     margin-top: 35vh;

@@ -105,14 +105,16 @@ Draw();
 
 function getPlaylist(){
   var songs=[
-    './music/ToFeelThings.mp3',
+    './music/DontWaitOnMyLove.m4a',
     './music/BackTogether.mp3',
     './music/ICouldNever.mp3',
     './music/YourHeart.mp3',
-    './music/Cayendo.mp3'
+    './music/Ebony.mp3',
+    './music/ToFeelThings.mp3',
+    './music/OnIt.mp3'
   ];
   var playlist =[];
-  var tracks = ['To Feel Things','Back Together', 'I Could Never', 'Your Heart', 'Cayendo'];
+  var tracks = ["Don't Wait On My Love",'Back Together', 'I Could Never', 'Your Heart', 'Ebony', 'To Feel Things', 'On It'];
   // var elem = document.getElementById('message');
   // elem.remove();
 

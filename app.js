@@ -115,7 +115,7 @@ function getPlaylist(){
     './music/CB.mp3'
   ];
   var playlist =[];
-  var tracks = ["Don't Wait On My Love",'Back Together', 'I Could Never', 'Your Heart', 'Ebony', 'To Feel Things', 'On It'];
+  var tracks = ["Rackables",'Whole Lotta', "Don't Wait On My Love", 'Never Knew Me', 'Choppa Go', 'I Could Never', 'Pull Up'];
   // var elem = document.getElementById('message');
   // elem.remove();
 

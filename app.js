@@ -111,7 +111,6 @@ function getPlaylist(){
     './music/NeverKnewMe.mp3',
     './music/ChoppaGo.mp3',
     './music/ICouldNever.mp3',
-    './music/Ebony.mp3',
     './music/CB.mp3'
   ];
   var playlist =[];

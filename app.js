@@ -105,13 +105,14 @@ Draw();
 
 function getPlaylist(){
   var songs=[
+    './music/Rackables.mp3',
+    './music/WholeLotta.mp3',
     './music/DontWaitOnMyLove.m4a',
-    './music/BackTogether.mp3',
+    './music/NeverKnewMe.mp3',
+    './music/ChoppaGo.mp3',
     './music/ICouldNever.mp3',
-    './music/YourHeart.mp3',
     './music/Ebony.mp3',
-    './music/ToFeelThings.mp3',
-    './music/OnIt.mp3'
+    './music/CB.mp3'
   ];
   var playlist =[];
   var tracks = ["Don't Wait On My Love",'Back Together', 'I Could Never', 'Your Heart', 'Ebony', 'To Feel Things', 'On It'];

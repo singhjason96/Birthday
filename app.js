@@ -105,16 +105,16 @@ Draw();
 
 function getPlaylist(){
   var songs=[
-    './music/Rackables.mp3',
+    './music/Passion.mp3',
     './music/WholeLotta.mp3',
     './music/DontWaitOnMyLove.m4a',
     './music/NeverKnewMe.mp3',
-    './music/ChoppaGo.mp3',
+    './music/LS4.mp3',
     './music/ICouldNever.mp3',
     './music/CB.mp3'
   ];
   var playlist =[];
-  var tracks = ["Rackables",'Whole Lotta', "Don't Wait On My Love", 'Never Knew Me', 'Choppa Go', 'I Could Never', 'Pull Up'];
+  var tracks = ["Passion",'Whole Lotta', "Don't Wait On My Love", 'Never Knew Me', 'Love Scars 4', 'I Could Never', 'Pull Up'];
   // var elem = document.getElementById('message');
   // elem.remove();
 
